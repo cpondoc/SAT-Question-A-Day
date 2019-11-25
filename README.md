@@ -1,5 +1,6 @@
 # SAT-Question-A-Day
 📚 One question a day gets your SAT score up right away! Created for Frederick High School Mu Alpha Theta.
+![Screenshot](imgs/screenshot.png)
 
 ## Motivation
 One of the biggest initiatives Frederick High's Mu Alpha Theta has undertaken has been opening up more opportunities for SAT and ACT prep. As an avid procrastinator, I tend to try and study as close to the test date as possible in hopes that my mind's fresh knowledge on the subject will help me in remembering topics. However, as well as know, that is no way of studying.
