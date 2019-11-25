@@ -1,5 +1,5 @@
 # SAT-Question-A-Day
-📚 One question a day gets your SAT score up right away! Created for Frederick High School Mu Alpha Theta.
+📚 One question a day gets your SAT score up right away! Created for Frederick High School Mu Alpha Theta.\
 ![Screenshot](imgs/screenshot.png)
 
 ## Motivation
