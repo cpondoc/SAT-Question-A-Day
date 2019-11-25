@@ -1,0 +1,48 @@
+body {
+  padding-top: 5rem;
+    background-color: #F3F6FF;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+button {
+    font-size: 25px !important;
+}
+
+button:hover {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+    width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#explanation, #tweet {
+    text-align: left !important;
+}
+
+#descrip {
+    font-size: 30px;
+}
+
+#lead, #explanation, #tweet {
+    font-size: 25px;
+}
+
+#questionTitle {
+    font-weight: bold;
+}

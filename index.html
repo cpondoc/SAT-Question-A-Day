@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <title>SAT Question a Day</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        packages: ['base', 'newcommand', 'configMacros']
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+    </script>
+    <script src="https://kit.fontawesome.com/bec992c53a.js" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+    <link href="style/index.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main role="main" class="container">
+        <div id="app">
+<h1><b>{{ title }}</b></h1>
+        <p id="descrip"> {{ description }}</p>
+        <div class="starter-template">
+          <div class="card">
+  <div class="card-body">
+    <h2 class="card-title" id="questionTitle"><b>🤔 Question for {{ date }}:</b></h2>
+        <p id="lead">{{ question }}</p>
+  </div>
+</div>
+        </div>
+        <div class="container">
+            <button type="button" v-bind:id="answer_choice1" onClick="myFunction(this.id)" class="btn btn-primary btn-lg btn-block">{{ answer_choice1 }}</button>
+            <br />
+            <br />
+            <br />
+            <button type="button" v-bind:id="answer_choice2" onClick="myFunction(this.id)" class="btn btn-primary btn-lg btn-block">{{ answer_choice2 }}</button>
+            <br />
+            <br />
+            <br />
+            <button type="button" v-bind:id="answer_choice3" onClick="myFunction(this.id)" class="btn btn-primary btn-lg btn-block">{{ answer_choice3 }}</button>
+            <br />
+            <br />
+            <br />
+            <button type="button" v-bind:id="answer_choice4" onClick="myFunction(this.id)" class="btn btn-primary btn-lg btn-block">{{ answer_choice4 }}</button>
+            <br />
+            <br />
+            <br />
+            <p id="explanation"><b>Question written by: </b> {{ author }}</p>
+            <p id ="tweet"><b>Share:</b> <a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text=Check%20out%20today's%20SAT%20problem%20of%20the%20day!%20https://sat-question-a-day.netlify.com/">
+<i class="fab fa-twitter"></i></a></p>
+            <br />
+        </div>
+        <script src="script/index.js"></script>
+            </div>
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
