@@ -6,5 +6,5 @@ One of the biggest initiatives Frederick High's Mu Alpha Theta has undertaken ha
 
 Studying for a test like the SATs or ACTs requires long-term preparation in order to consolidate the information you learn. Of course, this doesn't mean to take hour-long practice tests every day; however, practicing at least one mathematics question a day could do a ton towards increasing a person's score by 100+ points.
 
-### Description
+## Description
 This is why I decided to create SAT Question a Day, where students can answer one math related SAT question each and every day to help them prepare for their upcoming test date. The mathematics is made sure to format just like a real test, and a short and succinct explanation of the correct answer follows. The process is meant to user-friendly, seamless, and educational.
