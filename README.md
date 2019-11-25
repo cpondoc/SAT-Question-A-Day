@@ -12,4 +12,13 @@ This is why I decided to create SAT Question a Day, where students can answer on
 ## Technology Used
 The following libraries were used to help create SAT Question a Day:
 1. Vue.js
-  - This was to help create the dynamic content.
+  - Used to help display the dynamic content.
+2. Tabletop.js
+  - Used to help stream data from a Google Sheet, allowing my Mu Alpha Theta members to easily update and manage questions.
+3. MathJax
+  - Used to help process LaTeX questions in order to make the mathematics look pretty.
+  
+## Checklist
+- [X] Fix bug with questions for new day
+- [ ] Add more questions
+- [ ] Print question as a PDF
