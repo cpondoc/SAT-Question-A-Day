@@ -32,9 +32,9 @@ function showInfo(data, tabletop) {
             answer_choice4 = element["Answer Choice 4"];
             author = element["Author"];
             explanation = "<b>Explanation:</b> " + element["Explanation"];
-        }
-        setVue();
+            setVue();
         MathJax.typeset();
+        }
     }
   }
 
